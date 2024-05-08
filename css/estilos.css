@@ -1,0 +1,67 @@
+body{
+    background-color:#333;
+    color: rgb(220, 220, 220);
+}   
+
+h1{
+    margin: 7rem 0 2.5rem ;
+    text-align: center;
+
+}
+
+hr{
+    margin: 1rem auto;
+    max-width: 50%;
+}
+
+
+
+li a {
+    color: aliceblue !important;
+}
+
+li:hover{
+    color: #333!important;
+    background-color: #333!important;
+}
+
+.tarjetas{
+    border-radius: 10px;
+    transition: 0.5s ease;
+    margin: 0 auto;
+    padding: 5px 2rem !important;
+    display: flex;
+    text-align: center;
+}
+
+.tarjetas:hover{
+    background-color:rgb(59, 59, 59) !important;
+    transition: 0.5s ease;
+    color: #ffffff;
+    transform: scale(1.1);}
+
+.boton{
+    max-width:10rem;
+    margin: 0rem auto 15rem auto !important;
+    display: flex !important;
+    position: relative ;
+    z-index: 2;
+}
+
+nav{
+    z-index: 3;
+}
+
+.contenedor_tarjetas{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 1024px;
+    max-height: auto;
+    padding: 50px;
+    height: 70dvh;
+}
+
+footer{
+    border: 2px solid #333;
+}
