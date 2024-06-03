@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    background-color:#333;
+    background-size: cover;
+      font-family: "Roboto","Helvetica Neue Light","Helvetica Neue",Helvetica,Arial,"Lucida Grande",sans-serif,aclonica;
+    font-size:14px;
+      color:white;
+  }
+  .h3 {
+    font-family: "aclonica";
+    font-size: 120px;
+  }
+  
+  hr{
+    border: 1px solid ;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+  
+  input{
+    color: aliceblue !important;
+  }
+  
+  /* .input-field label {
+    color: #ffffff!important;
+  } */
+  
+  label{
+    z-index: 2;
+  }
+  
+  input{
+    z-index: 3;
+    position: inherit;
+  }
+  
+  
+  
+  .input-field input[type=text]:focus + label {
+    color: #888 !important;
+    border-bottom: 1px solid #888 !important;
+  }
+  
+  
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #888 !important;
+    box-shadow: 0 0.5px 0 0 #000 !important;
+  }
+  
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #888 !important;
+  }
+  
+  
+  .input-field .prefix.active {
+    color: #888 !important;
+    border-bottom: 1px solid #888 !important;
+  }
+  
+  
